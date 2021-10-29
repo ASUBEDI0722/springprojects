@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Order.java&apos; to &apos;msgsenderapp/src/main/java/com.ektha.app.model&apos;&#x0D;&#x0A;- Original project: &apos;springorm&apos;&#x0D;&#x0A;- Destination element: &apos;msgsenderapp/src/main/java/com.ektha.app.model&apos;&#x0D;&#x0A;- Original element: &apos;com.ektha.app.entity.Order.java&apos;" description="Copy compilation unit" destination="=msgsenderapp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ektha.app.model" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ektha.app.entity{Order.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1632144414358" units="1" version="1.0"/>
+</session>

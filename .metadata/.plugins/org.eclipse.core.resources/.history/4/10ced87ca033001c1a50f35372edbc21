@@ -1,0 +1,19 @@
+package com.ektha.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ektha.app.dao.ICustomerDAO;
+
+@Service
+public class CustomerService {
+
+	@Autowired
+	private ICustomerDAO customerDAO;
+
+	public void addCustomer() {
+		customerDAO.addCustomer();
+
+	}
+
+}

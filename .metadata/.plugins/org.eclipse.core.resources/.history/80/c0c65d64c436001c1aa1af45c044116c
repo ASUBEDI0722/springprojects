@@ -1,0 +1,30 @@
+package com.ektha.app.di;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Car {
+
+	@Autowired
+	private Engine engine;
+
+	public Car() {
+
+		System.out.println("Defaultconstructor injection");
+	}
+
+	public Car(Engine engine) {
+
+		System.out.println("Constructor injection");
+		this.engine = engine;
+
+	}
+
+	public void setEngine(Engine engine) {
+		System.out.println("Using setter injection");
+		this.engine = engine;
+	}
+
+	public String hasEngine() {
+		return engine.hasEngine();
+	}
+}

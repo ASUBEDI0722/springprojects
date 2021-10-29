@@ -1,0 +1,14 @@
+import java.util.List;
+
+import com.ektha.app.entity.Customer;
+
+public interface ICustomerDAO {
+
+	public Customer addCustomer(Customer customer);
+
+	public List<Customer> findAllCustomers();
+
+	public int deleteCustomer(int customerId);
+
+	public Customer updateCustomerDetails(Customer customer);
+}

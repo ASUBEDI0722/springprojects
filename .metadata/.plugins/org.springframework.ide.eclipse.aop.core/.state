@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="vehicleregistration"/>
+<aop-project name="CustomerRegistrationPortal"/>
+<aop-project name="customerservice"/>
+<aop-project name="course-api"/>
+<aop-project name="department-service"/>
+<aop-project name="customerclient"/>
+<aop-project name="user-service"/>
+<aop-project name="configserver"/>
+<aop-project name="ppp"/>
+<aop-project name="customerinfo"/>
+<aop-project name="eurekaserverproject"/>
+<aop-project name="cloud-gateway"/>
+<aop-project name="testproject"/>
+<aop-project name="springmvc"/>
+<aop-project name="springproject"/>
+<aop-project name="springorm"/>
+<aop-project name="bookingservice"/>
+<aop-project name="msgsenderapp"/>
+<aop-project name="springboot"/>
+<aop-project name="course-api-data"/>
+<aop-project name="service-registry"/>
+<aop-project name="msgreceiveapp"/>
+<aop-project name="SpringJPA"/>
+</aop-reference-model>

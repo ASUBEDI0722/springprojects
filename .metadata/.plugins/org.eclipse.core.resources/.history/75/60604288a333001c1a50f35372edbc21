@@ -1,0 +1,15 @@
+package com.ektha.app.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CustomerService {
+
+	public int addNumber(int a, int b) {
+		a = 2;
+		b = 3;
+		int sum = a + b;
+		return sum;
+	}
+
+}

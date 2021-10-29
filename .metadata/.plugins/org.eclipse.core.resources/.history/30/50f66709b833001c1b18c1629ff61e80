@@ -1,0 +1,12 @@
+package com.ektha.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ektha.app.repository.CustomerRepository;
+
+public class CustomerService {
+	
+	@Autowired
+	private CustomerRepository customerRepository;
+
+}

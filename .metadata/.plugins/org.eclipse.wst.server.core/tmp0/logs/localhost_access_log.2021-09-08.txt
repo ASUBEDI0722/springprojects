@@ -1,0 +1,3 @@
+127.0.0.1 - - [08/Sep/2021:08:42:20 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:08:42:21 -0500] "GET /springmvc/ordersearch.jsp HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [08/Sep/2021:08:42:26 -0500] "GET /springmvc/searchorder?orderid=1 HTTP/1.1" 200 441

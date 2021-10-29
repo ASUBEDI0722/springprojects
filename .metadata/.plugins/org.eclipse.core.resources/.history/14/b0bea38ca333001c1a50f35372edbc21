@@ -1,0 +1,26 @@
+package com.ektha.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ektha.app.repository.ICustomer;
+
+@Service
+public class CustomerService implements ICustomer {
+
+	@Autowired
+	private ICustomer customer;
+
+	@Override
+	public int addNumber(int a, int b) {
+		return customer.addNumber(a, b);
+	}
+
+//	public int addNumber(int a, int b) {
+//		a = 2;
+//		b = 3;
+//		int sum = a + b;
+//		return sum;
+//	}
+
+}

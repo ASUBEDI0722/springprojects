@@ -1,0 +1,95 @@
+package com.ektha.fba.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.ektha.fba.entity.BankPayment;
+import com.ektha.fba.entity.CreditCard;
+import com.ektha.fba.service.BookingService;
+
+import junit.framework.Assert;
+
+class BookingServiceTest {
+
+	BookingService bookingService = new BookingService();
+
+	@SuppressWarnings("deprecation")
+//	@Test
+//	void testBookTicketWhenNull() {
+//
+//		CreditCard creditCard = null;
+//		float ticketFare = 100;
+//		String expected = null;
+//
+//		BookingService bookingService = new BookingService();
+//		String actual = bookingService.bookTicket(creditCard, ticketFare);
+//
+//		Assert.assertEquals(expected, actual);
+//
+//	}
+
+	@Test
+	public void testBookTicket() {
+
+		CreditCard creditCard = new CreditCard();
+		creditCard.setNameOnCard("Anamika");
+		creditCard.setCvv(123);
+		creditCard.setCreditCardNumber("1234567");
+		int ticketFare = 400;
+
+		BookingService bookingService = new BookingService();
+		String output = bookingService.bookTicket(creditCard, ticketFare);
+
+		assertNotNull(output);
+	}
+
+	@Test
+	public void test() {
+
+		CreditCard creditCard = new CreditCard();
+		creditCard.setNameOnCard("Alisha");
+		creditCard.setCvv(321);
+		creditCard.setCreditCardNumber("12345908");
+		int ticketFare = 500;
+
+		String actual = bookingService.bookTicket(creditCard, ticketFare);
+		System.out.println(actual);
+		Assert.assertEquals(creditCard, actual);
+	}
+
+	@Test
+	public void testingBookTicket() {
+
+		CreditCard creditCard = new CreditCard();
+		creditCard.setNameOnCard("Anamika");
+		creditCard.setCvv(123);
+		creditCard.setCreditCardNumber("1234567");
+		int ticketFare = 5000;
+
+		String actual = bookingService.bookTicket(creditCard, ticketFare);
+
+		System.out.print(actual);
+		Assert.assertNotNull(actual);
+
+	}
+
+	@Test
+	public void testBookTicketWhenWrongInfo() {
+
+		CreditCard creditCard = new CreditCard();
+		creditCard.setNameOnCard("Amar");
+		creditCard.setCvv(345);
+		creditCard.setCreditCardNumber("1234578");
+		int ticketFare = 5000;
+		String expected = null;
+
+		String actual = bookingService.bookTicket(creditCard, ticketFare);
+
+		Assert.assertEquals(expected, actual);
+
+		Assert.assertNotNull(actual);
+
+	}
+
+}

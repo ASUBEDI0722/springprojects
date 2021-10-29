@@ -1,0 +1,22 @@
+
+Sep 28, 2021 22:43:57.53 NEW SESSION
+Sep 28, 2021 22:43:57.53 [25020:4056:0928/224357.047:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Sep 28, 2021 22:43:57.54 [25020:4056:0928/224357.047:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Sep 28, 2021 22:43:57.56 [25020:4056:0928/224357.047:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Sep 28, 2021 22:43:57.57 [25020:21176:0928/224357.049:ERROR:device_event_log_impl.cc(214)] [22:43:57.049] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 28, 2021 22:43:57.58 [25020:21176:0928/224357.050:ERROR:device_event_log_impl.cc(214)] [22:43:57.050] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Sep 28, 2021 22:43:57.59 [25020:4056:0928/224357.051:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+
+Oct 03, 2021 23:14:26.357 NEW SESSION
+Oct 03, 2021 23:14:26.357 [36748:34232:1003/231426.352:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Oct 03, 2021 23:14:26.359 [36748:34232:1003/231426.352:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+Oct 03, 2021 23:14:26.359 [36748:34232:1003/231426.352:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Oct 03, 2021 23:14:26.360 [36748:34232:1003/231426.355:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+Oct 03, 2021 23:14:26.363 [36748:36444:1003/231426.363:ERROR:device_event_log_impl.cc(214)] [23:14:26.363] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct 03, 2021 23:14:26.364 [36748:36444:1003/231426.363:ERROR:device_event_log_impl.cc(214)] [23:14:26.363] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct 03, 2021 23:14:26.365 [36748:36444:1003/231426.363:ERROR:device_event_log_impl.cc(214)] [23:14:26.364] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Oct 03, 2021 23:34:08.364 [36748:16152:1003/233408.363:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Oct 04, 2021 24:03:29.740 [36748:16152:1004/000329.740:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Oct 04, 2021 10:05:24.354 [36748:16152:1004/100524.353:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Oct 04, 2021 10:05:24.360 [36748:32456:1004/100524.359:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+Oct 04, 2021 10:30:29.13 [36748:16152:1004/103029.012:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105

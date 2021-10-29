@@ -1,0 +1,12 @@
+package com.ektha.app.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class DemoProject {
+
+	@GetMapping
+	public String printHello() {
+		return "Welcome to Spring Boot";
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ektha.app.repository.IDepartmentDAO&apos; to &apos;IUserRepository&apos;&#x0D;&#x0A;- Original project: &apos;user-service&apos;&#x0D;&#x0A;- Original element: &apos;com.ektha.app.repository.IDepartmentDAO&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ektha.app.repository.IUserRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IDepartmentDAO&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ektha.app.repository{IDepartmentDAO.java[IDepartmentDAO" matchStrategy="1" name="IUserRepository" qualified="false" references="true" similarDeclarations="false" stamp="1633673475417" textual="false" version="1.0"/>
+</session>

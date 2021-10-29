@@ -1,0 +1,5 @@
+package com.ektha.app.service;
+
+public interface CustomerRepository {
+
+}

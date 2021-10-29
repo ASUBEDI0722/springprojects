@@ -1,0 +1,8 @@
+package com.ektha.app.di;
+
+public class Engine {
+	public String hasEngine() {
+
+		return "every car has engine";
+	}
+}

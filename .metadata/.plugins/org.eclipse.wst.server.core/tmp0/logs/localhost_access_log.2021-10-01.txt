@@ -1,0 +1,9 @@
+127.0.0.1 - - [01/Oct/2021:15:37:13 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:37:14 -0500] "GET /vehicleregistration/WEB-INF/views/vehicle.jsp HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:37:14 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:37:23 -0500] "GET /VehicleRegistration/vehicle.jsp HTTP/1.1" 404 765
+127.0.0.1 - - [01/Oct/2021:15:39:38 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:39:38 -0500] "GET /vehicleregistration/ HTTP/1.1" 500 10689
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:40:40 -0500] "GET /vehicleregistration/getvehicle HTTP/1.1" 500 10689
+127.0.0.1 - - [01/Oct/2021:15:42:49 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Oct/2021:15:42:49 -0500] "GET /vehicleregistration/ HTTP/1.1" 500 10689

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ektha.app.client.ICustomerService&apos; to &apos;CustomerService&apos;&#x0D;&#x0A;- Original project: &apos;customerclient&apos;&#x0D;&#x0A;- Original element: &apos;com.ektha.app.client.ICustomerService&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ektha.app.client.CustomerService&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ICustomerService&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ektha.app.client{ICustomerService.java[ICustomerService" matchStrategy="1" name="CustomerService" qualified="false" references="true" similarDeclarations="false" stamp="1633095988914" textual="false" version="1.0"/>
+</session>

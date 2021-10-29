@@ -1,0 +1,6 @@
+127.0.0.1 - - [03/Sep/2021:22:53:02 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:22:53:03 -0500] "GET /springmvc/search.jsp HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:22:53:12 -0500] "GET /springmvc/searchproduct?productid=1 HTTP/1.1" 200 432
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:22:54:14 -0500] "GET /springmvc/search.jsp HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:22:54:39 -0500] "GET /springmvc/search.jsp HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:22:54:49 -0500] "GET /springmvc/searchproduct?productid=3 HTTP/1.1" 200 454

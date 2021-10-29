@@ -1,0 +1,10 @@
+package com.ektha.app.setter;
+
+public class Printer {
+
+	public void printBalance(String accountNumber) {
+
+		System.out.println("Balance information for the account number has been printed" + accountNumber);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springboot-1&apos; to &apos;course-api-data&apos;" description="Rename resource &apos;springboot-1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/springboot-1" name="course-api-data" stamp="1631664876709" updateReferences="true"/>
+</session>

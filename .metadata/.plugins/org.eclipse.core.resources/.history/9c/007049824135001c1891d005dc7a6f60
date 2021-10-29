@@ -1,0 +1,27 @@
+package com.ektha.app;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.ektha.app.service.CustomerService;
+
+@SpringBootApplication
+public class PppApplication implements CommandLineRunner {
+	
+	@Autowired
+	private CustomerService customerService;
+
+	public static void main(String[] args) {
+		SpringApplication.run(PppApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+
+		int number = customerService.addNumber(2, 3);
+		System.out.println("Sum is : " + number);
+	}
+
+}

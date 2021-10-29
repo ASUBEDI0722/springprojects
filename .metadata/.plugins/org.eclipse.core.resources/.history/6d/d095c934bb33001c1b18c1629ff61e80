@@ -1,0 +1,40 @@
+package com.ektha.app.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.ektha.app.entity.Customer;
+import com.ektha.app.repository.CustomerRepository;
+
+@Repository
+public class CustomerDAO implements ICustomerDAO {
+	
+	@Autowired
+	private CustomerRepository customerRepository;
+
+	@Override
+	public Customer addCustomer(Customer customer) {
+		Customer c = customerRepository.save(customer);
+	}
+
+	@Override
+	public List<Customer> findAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Customer updateCustomerDetails(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

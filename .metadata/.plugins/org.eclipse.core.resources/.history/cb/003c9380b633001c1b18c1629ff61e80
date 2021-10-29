@@ -1,0 +1,31 @@
+package com.ektha.app.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Customer {
+
+	@Id
+	@GeneratedValue
+	private int customerId;
+
+	@Column(name = "firstName")
+	private String firstName;
+
+	@Column(name = "lastName")
+	private String lastName;
+
+	@Column(name = "email")
+	private String email;
+
+	@Column(name = "phoneNumber")
+	private String phoneNumber;
+	
+	private List<Address> address;
+
+}

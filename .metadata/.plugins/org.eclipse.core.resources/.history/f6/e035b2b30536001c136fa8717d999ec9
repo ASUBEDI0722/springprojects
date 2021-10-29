@@ -1,0 +1,8 @@
+package com.ektha.app.setter;
+
+public class Employee {
+	
+	private int id;
+	private String name;
+
+}

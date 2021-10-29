@@ -1,0 +1,20 @@
+package com.ektha.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.ektha.app.service.CustomerService;
+
+@Controller
+public class CustomerController {
+	
+	@Autowired
+	private CustomerService customerService;
+	
+	
+	public int addNumber(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+
+}

@@ -1,0 +1,11 @@
+127.0.0.1 - - [17/Sep/2021:12:26:41 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:12:26:42 -0500] "GET /CustomerRegistrationPortal/customer.jsp HTTP/1.1" 200 1423
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:12:26:42 -0500] "GET /CustomerRegistrationPortal/style.css HTTP/1.1" 404 682
+127.0.0.1 - - [17/Sep/2021:18:15:34 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:15:35 -0500] "GET /CustomerRegistrationPortal/customer.jsp HTTP/1.1" 200 1423
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:15:35 -0500] "GET /CustomerRegistrationPortal/style.css HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:15:55 -0500] "POST /CustomerRegistrationPortal/CustomerPortal HTTP/1.1" 500 3571
+127.0.0.1 - - [17/Sep/2021:18:16:34 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:16:34 -0500] "GET /CustomerRegistrationPortal/customer.jsp HTTP/1.1" 200 1423
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:16:34 -0500] "GET /CustomerRegistrationPortal/style.css HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [17/Sep/2021:18:17:20 -0500] "POST /CustomerRegistrationPortal/CustomerPortal HTTP/1.1" 200 482

@@ -1,0 +1,26 @@
+package com.ektha.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Controller;
+
+import com.ektha.app.service.CustomerService;
+
+@Controller
+public class CustomerController implements CommandLineRunner {
+
+	@Autowired
+	private CustomerService customerService;
+
+	public int addNumber(int a, int b) {
+		return customerService.addNumber(3, 2);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		int number = customerService.addNumber(3, 4);
+		System.out.println(number);
+
+	}
+
+}
